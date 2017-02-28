@@ -1,0 +1,12 @@
+body {
+	background-image: url('images/woods.jpg');
+	position: fixed;
+	width: 100%;
+  	color: red;
+}
+.btn-danger {
+	margin-top: 100px;
+	color: #F44336;
+	background: black;
+}
+
