@@ -7,6 +7,10 @@ background-size: cover;
   	color: red;
 }
 
+image {
+	max-width: 600px;
+}
+
 .btn {
 	font-family: 'Indie Flower', cursive;
 	font-size: 30px;

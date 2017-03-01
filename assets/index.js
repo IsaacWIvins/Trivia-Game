@@ -52,7 +52,7 @@ $(document).ready(function() {
     //function to start the music when you click start and show the mute button
     function playAudio() {
         $('#mute').show();
-        audio.src = "assets/sounds/theme.mp3";
+        audio.src = "images/stranger_things.mp3";
         audio.play();
     }
 
@@ -150,7 +150,7 @@ $(document).ready(function() {
 		displayAnswer: function() {
 			var picture = $("<img>")
 				.addClass("img-rounded image center-block")
-				.attr("scr", "assets/images" + i.image);
+				.attr("src", "assets/images/" + i.images);
 			$("#answer").html(picture);
 			display = setTimeout(game.nexQuestion, 5000);
 		},
@@ -205,105 +205,105 @@ $(document).ready(function() {
 
 	//array of questions
 	var triviaQuestions = [{
-		question: "As seen written on the screen, in what year did season one take plae?",
+		question: "As seen written on the screen, in what year did season one take place?",
 		choices: ["1967", "2001", "1983", "1955"],
 		correct: "1983",
-		images: "",
+		images: "bad_men.gif",
 	}, {
 		question: "Which of the young boys allowed Eleven to stay at his house as she hid from the Hawkins Lab and Dr. Brenner?",
 		choices: ["Mike", "Lucas", "Dustin", "Jonathan"],
 		correct: "Mike",
-		images: "",
+		images: "mike_bike.gif",
 	}, {
 		question: "Which one of Nancy Wheeler's friends was taken during a get-together at Steve Harrington's house?",
 		choices: ["Nancy", "Stacy", "Barb", "Jenny"],
 		correct: "Barb",
-		images: "",
+		images: "barb.gif",
 	}, {
 		question: "Joyce was able to communicate with her son through the use of which of these?",
 		choices: ["Fire", "Electricity", "Automatic Writing", "Ouija Board"],
 		correct: "Electricity",
-		images: "",
+		images: "mom_lights.gif",
 	}, {
 		question: "Who broke into the government lab in Hawkins, and found the entrance to the creature's world in Chapter Five?",
 		choices: ["Steve", "Joyce", "Chief Hopper", "Lonnie"],
 		correct: "Chief Hopper",
-		images: "",
+		images: "hopper_watch.gif",
 	}, {
 		question: "Which of the following characters entered the Upside Down World first?",
 		choices: ["Dustin", "Joyce", "Nancy", "Hopper"],
 		correct: "Nancy",
-		images: "",
+		images: "nancy_bat.gif",
 	}, {
 		question: "In Chapter Seven, who advised Dustin and the boys on how to make a sensory deprivation tank?",
 		choices: ["Lonnie Byers", "Mr. Clark", "Dr. Brenner", "Ted Wheeler"],
 		correct: "Mr. Clark",
-		images: "",
+		images: "mr_clark.gif",
 	}, {
 		question: "In Chapter One, what was the name of the young boy who vanished in Hawkins, Indiana?",
 		choices: ["Jack Sawyer", "Benny Hammond", "Davis Garraty", "Will Byers"],
 		correct: "Will Byers",
-		images: "",
+		images: "will_byers.gif",
 	}, {
 		question: "Mornings are for ______ and __________.",
 		choices: ["Coffee and Contemplation", "Beer and Cigarettes", "Waffles and Syrup", "Leggos and My 'Eggos"],
 		correct: "Coffee and Contemplation",
-		images: "",
+		images: "coffee.gif",
 	}, {
 		question: "What board-game were the boys playing at the beginning of Chapter One?",
 		choices: ["Dungeons and Dragons", "Monopoly", "Risk", "Life"],
 		correct: "Dungeons and Dragons",
-		images: "",
+		images: "d_and_d.gif",
 	}, {
 		question: "In a flashback scene, Joyce surprises Will with tickets to go see what horror film?",
 		choices: ["The Thing", "Friday the 13th: Part 3", "Creepshow", "Poltergeist"],
 		correct: "Poltergeist",
-		images: "",
+		images: "mom_phone.gif",
 	}, {
 		question: "In the first episode, Will wins one of Dustin's comics. Which one does he ask for?",
 		choices: ["Superman", "X-Men", "Batman", "Creepy"],
 		correct: "X-Men",
-		images: "",
+		images: "comic_bet.gif",
 	}, {
 		question: "What name has Eleven and Dr. Brenner given to the sensory deprivation tank in the secret laboratory?",
 		choices: ["The Pond", "The Dip", "The Bath", "The Pool"],
 		correct: "The Bath",
-		images: "",
+		images: "eleven_tank.gif",
 	}, {
 		question: "Towards the beginning of the first episode, Chief Hopper is told that some kids have been stealing what items from local residents?",
 		choices: ["Cars", "Garden Gnomes", "Lawn Chairs", "Mailboxes"],
 		correct: "Garden Gnomes",
-		images: "",
+		images: "hopper_believe.gif",
 	}, {
 		question: "What is the Dungeons & Dragons inspired name Eleven and the boys give the monster from the Upside-Down?",
 		choices: ["Mind Flayer", "Faceless Beast", "Beholder", "Demogorgon"],
 		correct: "Demogorgon",
-		images: "",
+		images: "demagorgon.gif",
 	}, {
 		question: "When Eleven goes to the diner in search of food, she meets the owner. What is his name?",
 		choices: ["Benny", "Barney", "Bobby", "Betsey"],
 		correct: "Benny",
-		images: "",
+		images: "benny_dead.gif",
 	}, {
 		question: "Dr. Brenner asks Eleven to harm what kind of animal?",
 		choices: ["Bunny", "Rat", "Cat", "Bird"],
 		correct: "Cat",
-		images: "",
+		images: "eleven_can.gif",
 	}, {
 		question: "What is the name of Chief Hopper's daughter?",
 		choices: ["Emily", "Anna", "Beth", "Sarah"],
 		correct: "Sarah",
-		images: "",
+		images: "waking_up.gif",
 	}, {
 		question: "At school, where does Steve tell Nancy to meet him?",
 		choices: ["Under The Bleachers", "The Gym", "The Library", "The Bathroom"],
 		correct: "The Bathroom",
-		images: "",
+		images: "nancy_school.gif",
 	}, {
 		question: "To prove he's alive, how did Eleven make contact with Will?",
 		choices: ["The Lights", "Walkie-Talkie", "The Phone", "Text Message"],
 		correct: "Walkie-Talkie",
-		images: "",
+		images: "walkie_talkie.gif",
 	}
 	];
 
