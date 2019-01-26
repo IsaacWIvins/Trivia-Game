@@ -1,10 +1,10 @@
 body {
 	background-image: url('images/woods.jpg');
-background-repeat: no-repeat;
-background-position: center center;
-background-attachment: fixed;
-background-size: cover;
-  	color: red;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	color: red;
 }
 
 image {
